@@ -1,0 +1,86 @@
+body{
+    background-color: #3AAFA9
+
+}
+@keyframes h1animation{
+    from{padding:10px 25px; font-size: inherit;}
+    to{padding: 15px 30px; font-size: 75px;}
+}
+
+h1{
+    font-size: 75px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    animation-name: h1animation;
+    animation-fill-mode: forwards;
+    animation-duration: 2.3s;
+    
+}
+@keyframes h3animation{
+    from{font-size: inherit;}
+    to{font-size: 25px;}
+}
+h3{
+    font-size:25px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    animation-name: h3animation;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    animation-duration: 1.5s;
+}
+@keyframes h2animation{
+    from{font-size: inherit;}
+    to{font-size: 40px;}
+}
+h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+     animation-name: h2animation;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+    animation-duration: 1.7s;
+}
+@keyframes buttonanimation{
+    from{padding:10px 25px; font-size: inherit;}
+    to{padding: 15px 30px; font-size: 26.5px;}
+}
+.button{
+    background:radial-gradient(#2B7A77,#17242A);
+    display: inline-block;
+    border: solid 2.5px #ffffff;
+    font-size: 23px;
+    color: white ;
+    font-family: courier new ;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    text-shadow: 0px 2px 2px black;
+    box-shadow:1px 3px 2px #17242A;
+    width: 90px;
+    margin-left: 550;
+    margin-top: 150;
+    margin-right: -400;
+    text-decoration: none
+     }
+.button:hover {
+      background: #3F557F; 
+      background: linear-gradient(#17242A,#2B7A77);
+      text-shadow: 0px 2px 2px #21385B;
+      animation-name: buttonanimation;
+      animation-duration: 0.9s; 
+      animation-fill-mode: forwards;
+      
+}
+.button:active{
+    position:relative;
+    top:1px;
+}
+
